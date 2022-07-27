@@ -29,6 +29,5 @@
 
     <mybatis-spring:scan base-package="com.gp.mapper" />
 
-    <context:component-scan base-package="com.gp.sample">
-    </context:component-scan>
+    <context:component-scan base-package="com.gp.sample" />
 </beans>
